@@ -108,7 +108,7 @@ run().catch(console.dir);
 
 // Create root API
 app.get("/", (req, res) => {
-  res.send("Running Electronics - Zone server");
+  res.send("Running Electronics Zone server");
 });
 
 // For Port & Listening
